@@ -1,0 +1,70 @@
+body {
+	background-color: #000;
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+#box {
+	width: 200px;
+	padding: 8px 8px 20px 8px;
+	background-color: #000000;
+	border-radius: 10px;
+	border-top: 25px solid #e4d612;
+	border-right: 5px solid #e4d612;
+	border-bottom: 5px solid #e4d612;
+	border-left: 5px solid #e4d612;
+}
+#display {
+	display: block;
+	margin: 15px auto;
+	height: 50px;
+	width: 180px;
+	border-radius: 10px;
+	border-top: 5px solid #e4d612;
+	border-right: 3px solid #e4d612;
+	border-bottom: 3px solid #e4d612;
+	border-left: 3px solid #e4d612;
+	background-color: #000000;
+	font-size: 35px;
+	color: #fff;
+	text-align: right;
+}
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #434343;
+	border:2px solid #000;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+}
+.digits {
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+}
+.digits:hover,.mathButtons:hover,#clearButton:hover {
+	background-color: #e4d612;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+}
+#clearButton {
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+}
